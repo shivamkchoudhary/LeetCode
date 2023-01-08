@@ -3,15 +3,15 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> low = 3, high = 7
+<pre style="position: relative;"><strong>Input:</strong> low = 3, high = 7
 <strong>Output:</strong> 3
-<b>Explanation: </b>The odd numbers between 3 and 7 are [3,5,7].</pre>
+<b>Explanation: </b>The odd numbers between 3 and 7 are [3,5,7].<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> low = 8, high = 10
+<pre style="position: relative;"><strong>Input:</strong> low = 8, high = 10
 <strong>Output:</strong> 1
-<b>Explanation: </b>The odd numbers between 8 and 10 are [9].</pre>
+<b>Explanation: </b>The odd numbers between 8 and 10 are [9].<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
