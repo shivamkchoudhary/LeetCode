@@ -1,6 +1,6 @@
 <h2><a href="https://leetcode.com/problems/combine-two-tables/">175. Combine Two Tables</a></h2><h3>Easy</h3><hr><div class="sql-schema-wrapper__3VBi"><a class="sql-schema-link__3cEg">SQL Schema<svg viewBox="0 0 24 24" width="1em" height="1em" class="icon__1Md2"><path fill-rule="evenodd" d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></a></div><div><p>Table: <code>Person</code></p>
 
-<pre style="position: relative;">+-------------+---------+
+<pre>+-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
 | personId    | int     |
@@ -9,13 +9,13 @@
 +-------------+---------+
 personId is the primary key column for this table.
 This table contains information about the ID of some persons and their first and last names.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 
 <p>Table: <code>Address</code></p>
 
-<pre style="position: relative;">+-------------+---------+
+<pre>+-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
 | addressId   | int     |
@@ -25,7 +25,7 @@ This table contains information about the ID of some persons and their first and
 +-------------+---------+
 addressId is the primary key column for this table.
 Each row of this table contains information about the city and state of one person with ID = PersonId.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 
@@ -38,7 +38,7 @@ Each row of this table contains information about the city and state of one pers
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> 
+<pre><strong>Input:</strong> 
 Person table:
 +----------+----------+-----------+
 | personId | lastName | firstName |
@@ -63,5 +63,5 @@ Address table:
 <strong>Explanation:</strong> 
 There is no address in the address table for the personId = 1 so we return null in their city and state.
 addressId = 1 contains information about the address of personId = 2.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 </div>
