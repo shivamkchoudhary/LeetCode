@@ -7,4 +7,4 @@ where c.name like 'RED')
 
 select name from salesperson
 where sales_id not in(
-select sales_id from cte)
+select distinct sales_id from cte)
