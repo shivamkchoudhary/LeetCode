@@ -6,4 +6,4 @@ from users
 left join orders on users.user_id = orders.buyer_id 
 and year(order_date) = 2019
 group by user_id, join_date
-order by buyer_id
+order by buyer_id;
