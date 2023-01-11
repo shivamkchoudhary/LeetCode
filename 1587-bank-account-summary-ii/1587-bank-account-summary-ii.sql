@@ -2,6 +2,6 @@
 
 select u.name, sum(t.amount)  as 'balance'
 from users u
-join transactions t on t.account = u.account
+inner join transactions t on t.account = u.account
 group by u.account
 having balance > 10000
