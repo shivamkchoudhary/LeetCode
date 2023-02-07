@@ -1,23 +1,13 @@
 class Solution:
     def totalFruit(self, fruits: List[int]) -> int:
-        start, end = 0, 0
-        fruit_count = {}
-        max_fruits = 0
-
-        while end < len(fruits):
-            if fruits[end] in fruit_count:
-                fruit_count[fruits[end]] += 1
-            else:
-                fruit_count[fruits[end]] = 1
-
-            while len(fruit_count) > 2:
-                fruit_count[fruits[start]] -= 1
-                if fruit_count[fruits[start]] == 0:
-                    del fruit_count[fruits[start]]
-                start += 1
-
-            max_fruits = max(max_fruits, end - start + 1)
-            end += 1
-
-        return max_fruits
+        l, nums, res = 0, collections.Counter(), 0
+        for r in range(len(fruits)):
+            nums[fruits[r]] += 1
+            while len(nums) > 2:
+                nums[fruits[l]] -= 1 
+                if not nums[fruits[l]]:
+                    nums.pop(fruits[l])
+                l += 1
+            res = max(res, r - l + 1)
+        return res
         
