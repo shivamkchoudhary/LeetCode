@@ -9,17 +9,17 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> x = 4
+<pre style="position: relative;"><strong>Input:</strong> x = 4
 <strong>Output:</strong> 2
 <strong>Explanation:</strong> The square root of 4 is 2, so we return 2.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> x = 8
+<pre style="position: relative;"><strong>Input:</strong> x = 8
 <strong>Output:</strong> 2
 <strong>Explanation:</strong> The square root of 8 is 2.82842..., and since we round it down to the nearest integer, 2 is returned.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
