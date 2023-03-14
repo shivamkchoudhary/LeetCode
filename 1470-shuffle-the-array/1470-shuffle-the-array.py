@@ -6,6 +6,8 @@ class Solution:
             res.append(nums[i])
             res.append(nums[i+n])
         return res
+    
+    
         # l1 = nums[:n]
         # l2 = nums[n:]
         # l=[]
