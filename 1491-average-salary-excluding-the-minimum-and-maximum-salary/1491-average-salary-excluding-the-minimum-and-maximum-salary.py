@@ -1,6 +1,11 @@
 class Solution:
     def average(self, salary: List[int]) -> float:
         n = len(salary)
-        salary.sort()
-        total = sum(salary) - salary[0] - salary[n-1]
-        return total / (n-2)
+        min_salary = float('inf')
+        max_salary = float('-inf')
+        total = 0
+        for s in salary:
+            min_salary = min(min_salary, s)
+            max_salary = max(max_salary, s)
+            total += s
+        return (total - min_salary - max_salary) / (n-2)
