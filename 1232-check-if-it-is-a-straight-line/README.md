@@ -13,7 +13,7 @@
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><strong><img alt="" src="https://assets.leetcode.com/uploads/2019/10/09/untitled-diagram-1.jpg" style="width: 348px; height: 336px;" naptha_cursor="region"></strong></p>
+<p><strong><img alt="" src="https://assets.leetcode.com/uploads/2019/10/09/untitled-diagram-1.jpg" style="width: 348px; height: 336px;"></strong></p>
 
 <pre style="position: relative;"><strong>Input:</strong> coordinates = [[1,1],[2,2],[3,4],[4,5],[5,6],[7,7]]
 <strong>Output:</strong> false
