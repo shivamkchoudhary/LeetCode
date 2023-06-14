@@ -14,7 +14,7 @@ class Solution:
             dfs(node.left)
             nonlocal prev, res
             if prev:
-                res = min(res, node.val - prev.val)
+                res = abs(min(res, node.val - prev.val))
             prev = node            
             dfs(node.right)
         dfs(root)
